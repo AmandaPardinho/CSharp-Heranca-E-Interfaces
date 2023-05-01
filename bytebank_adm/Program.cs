@@ -20,6 +20,7 @@ GerenciadorBonificacao gerenciador = new GerenciadorBonificacao();
 gerenciador.Registrar(pedro);
 gerenciador.Registrar(roberta);
 
+Console.WriteLine();
 Console.WriteLine($"Total de bonificações: {String.Format("{0:0.00} ", gerenciador.TotalBonificacao)}");
 
 Console.ReadKey();
