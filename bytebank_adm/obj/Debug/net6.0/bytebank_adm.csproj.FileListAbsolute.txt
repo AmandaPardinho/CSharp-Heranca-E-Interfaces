@@ -1,0 +1,15 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\bin\Debug\net6.0\bytebank_adm.exe
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\bin\Debug\net6.0\bytebank_adm.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\bin\Debug\net6.0\bytebank_adm.runtimeconfig.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\bin\Debug\net6.0\bytebank_adm.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\bin\Debug\net6.0\bytebank_adm.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\obj\Debug\net6.0\bytebank_adm.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\obj\Debug\net6.0\bytebank_adm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\obj\Debug\net6.0\bytebank_adm.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\obj\Debug\net6.0\bytebank_adm.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\obj\Debug\net6.0\bytebank_adm.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\obj\Debug\net6.0\bytebank_adm.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\obj\Debug\net6.0\refint\bytebank_adm.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\obj\Debug\net6.0\bytebank_adm.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\obj\Debug\net6.0\bytebank_adm.genruntimeconfig.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\bytebank_adm\obj\Debug\net6.0\ref\bytebank_adm.dll
