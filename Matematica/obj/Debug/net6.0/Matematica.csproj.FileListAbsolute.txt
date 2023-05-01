@@ -1,0 +1,15 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\obj\Debug\net6.0\Matematica.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\obj\Debug\net6.0\Matematica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\obj\Debug\net6.0\Matematica.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\obj\Debug\net6.0\Matematica.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\obj\Debug\net6.0\Matematica.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\bin\Debug\net6.0\matematica.exe
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\bin\Debug\net6.0\matematica.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\bin\Debug\net6.0\matematica.runtimeconfig.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\bin\Debug\net6.0\matematica.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\bin\Debug\net6.0\matematica.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\obj\Debug\net6.0\matematica.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\obj\Debug\net6.0\refint\matematica.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\obj\Debug\net6.0\matematica.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\obj\Debug\net6.0\matematica.genruntimeconfig.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Heranca-E-Interfaces\Matematica\obj\Debug\net6.0\ref\matematica.dll
