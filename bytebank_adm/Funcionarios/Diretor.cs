@@ -19,5 +19,15 @@ namespace bytebank_adm.Funcionarios
         {
             return this.Salario + base.PremioSemestral();
         }
+
+        public Diretor(string cpf,double salario):base(cpf, salario)
+        {
+            
+        }
+
+        public override void AumentarSalario()
+        {
+            this.Salario *= 1.15;
+        }
     }
 }
