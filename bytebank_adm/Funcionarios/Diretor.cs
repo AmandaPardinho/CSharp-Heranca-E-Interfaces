@@ -8,9 +8,16 @@ namespace bytebank_adm.Funcionarios
 {
     public class Diretor: Funcionario
     {
-        public double GetBonificacao()
+        //A palavra "override" mostra que esse método irá sobrescrever o método da superclasse que estiver definido como "virtual"
+        public override double GetBonificacao()
         {
-            return this.Salario;
+            //Palavra "base" => palavra reservada que permite acessar implementações e propriedades existentes na superclasse
+            return this.Salario + base.GetBonificacao();
+        }
+
+        public override double PremioSemestral()
+        {
+            return this.Salario + base.PremioSemestral();
         }
     }
 }
