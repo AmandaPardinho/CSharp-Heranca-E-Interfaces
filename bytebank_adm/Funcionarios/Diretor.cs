@@ -1,4 +1,5 @@
-﻿using System;
+﻿using bytebank_adm.SistemaInterno;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace bytebank_adm.Funcionarios
 {
-    public class Diretor: Funcionario
+    public class Diretor: Autenticavel
     {
         //A palavra "override" mostra que esse método irá sobrescrever o método da superclasse que estiver definido como "virtual"
         public override double GetBonificacao()
@@ -17,7 +18,7 @@ namespace bytebank_adm.Funcionarios
 
         public override double PremioSemestral()
         {
-            return this.Salario + base.PremioSemestral();
+            return this.Salario * 0.5;
         }
 
         public Diretor(string cpf): base(cpf, 5000)
@@ -28,6 +29,11 @@ namespace bytebank_adm.Funcionarios
         public override void AumentarSalario()
         {
             this.Salario *= 1.15;
+        }
+
+        public override bool Autenticar(string senha, string login)
+        {
+            return this.Senha == senha && this.Login == login;
         }
     }
 }
