@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace bytebank_adm.Funcionarios
 {
-    public class Diretor: Autenticavel
+    public class Diretor: FuncionarioAutenticavel
     {
         //A palavra "override" mostra que esse método irá sobrescrever o método da superclasse que estiver definido como "virtual"
         public override double GetBonificacao()
@@ -29,11 +29,6 @@ namespace bytebank_adm.Funcionarios
         public override void AumentarSalario()
         {
             this.Salario *= 1.15;
-        }
-
-        public override bool Autenticar(string senha, string login)
-        {
-            return this.Senha == senha && this.Login == login;
         }
     }
 }
