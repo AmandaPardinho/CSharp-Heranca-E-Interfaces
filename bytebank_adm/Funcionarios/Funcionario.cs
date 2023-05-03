@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace bytebank_adm.Funcionarios
 {
-    public class Funcionario
+    /* Classe abstrata =>
+     * - Não permite a criação de objetos a partir dela
+     * - Permite a criação de métodos abstratos => toda classe que herdar a classe abstrata Funcionario, terá a obrigação de implementar estes métodos.
+     * - Continua permitindo a criação de um método construtor
+     */
+    public abstract class Funcionario
     {
         public string Nome { get; set; }
         public string Cpf { get; private set; }
@@ -15,15 +20,9 @@ namespace bytebank_adm.Funcionarios
         public static int TotalFuncionarios { get; private set; }
 
         //A palavra "virtual" demonstra que um método pode ser reescrito
-        public virtual double GetBonificacao()
-        {
-            return this.Salario * 0.10;
-        }
+        public abstract double GetBonificacao();
 
-        public virtual double PremioSemestral()
-        {
-            return this.Salario * 0.2;
-        }
+        public abstract double PremioSemestral();
 
         public Funcionario(string cpf, double salario)
         {
@@ -32,9 +31,6 @@ namespace bytebank_adm.Funcionarios
             TotalFuncionarios++;
         }
 
-        public virtual void AumentarSalario()
-        {
-            this.Salario *= 1.10;
-        }
+        public abstract void AumentarSalario();
     }
 }
