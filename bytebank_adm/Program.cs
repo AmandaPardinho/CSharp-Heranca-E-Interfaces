@@ -1,4 +1,5 @@
 ﻿using bytebank_adm.Funcionarios;
+using bytebank_adm.Parceria;
 using bytebank_adm.SistemaInterno;
 using bytebank_adm.Utilitario;
 
@@ -50,7 +51,7 @@ void CalcularBonificacao(){
     Console.WriteLine($"Total de bonificação: {String.Format("{0:0.00}", gerenciador.TotalBonificacao)}");
 }
 
-CalcularBonificacao();
+//CalcularBonificacao();
 
 UsarSistema();
 
@@ -68,8 +69,14 @@ void UsarSistema()
     ursula.Senha = "987";
     ursula.Login = "ursulaAlcantara";
 
+    ParceiroComercial caio = new ParceiroComercial();
+    //caio.Nome = "Caio";
+    caio.Senha = "268";
+    caio.Login = "caio";
+
     sistema.Logar(ingrid, "123", "ingridNovaes");
     sistema.Logar(ursula, "789", "ursulaAlcantara");
+    sistema.Logar(caio, "268", "caio");
 }
 
 Console.ReadKey();
