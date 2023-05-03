@@ -12,7 +12,7 @@ namespace bytebank_adm.Funcionarios
         public override double GetBonificacao()
         {
             //Palavra "base" => palavra reservada que permite acessar implementações e propriedades existentes na superclasse
-            return this.Salario + base.GetBonificacao();
+            return this.Salario * 0.5;
         }
 
         public override double PremioSemestral()
@@ -20,7 +20,7 @@ namespace bytebank_adm.Funcionarios
             return this.Salario + base.PremioSemestral();
         }
 
-        public Diretor(string cpf,double salario):base(cpf, salario)
+        public Diretor(string cpf): base(cpf, 5000)
         {
             
         }
