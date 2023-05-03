@@ -1,4 +1,5 @@
 ﻿using bytebank_adm.Funcionarios;
+using bytebank_adm.Parceria;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace bytebank_adm.SistemaInterno
 {
     public class SistemaInterno
     {
-        public bool Logar(Autenticavel funcionario, string senha, string login)
+        public bool Logar(IAutenticavel funcionario, string senha, string login)
         {
             bool usuarioAutenticado = funcionario.Autenticar(senha, login);
             if(usuarioAutenticado)
