@@ -1,4 +1,5 @@
-﻿using System;
+﻿using bytebank_adm.SistemaInterno;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,16 +14,15 @@ namespace bytebank_adm.Funcionarios
      */
     public abstract class Funcionario
     {
+        private double bonusSalario;
+
         public string Nome { get; set; }
         public string Cpf { get; private set; }
         public double Salario { get; protected set; }
-
         public static int TotalFuncionarios { get; private set; }
+        
 
         //A palavra "virtual" demonstra que um método pode ser reescrito
-        public abstract double GetBonificacao();
-
-        public abstract double PremioSemestral();
 
         public Funcionario(string cpf, double salario)
         {
