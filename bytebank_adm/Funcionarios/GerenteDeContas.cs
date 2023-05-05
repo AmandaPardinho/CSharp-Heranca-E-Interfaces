@@ -13,16 +13,6 @@ namespace bytebank_adm.Funcionarios
         {        
         }
 
-        public override double GetBonificacao()
-        {
-            return this.Salario * 0.25;
-        }
-
-        public override double PremioSemestral()
-        {
-            return this.Salario * 0.3;
-        }
-
         public override void AumentarSalario()
         {
             this.Salario *= 1.05;
