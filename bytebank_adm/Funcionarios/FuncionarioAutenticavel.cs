@@ -12,9 +12,10 @@ namespace bytebank_adm.Funcionarios
         protected FuncionarioAutenticavel(string cpf, double salario) : base(cpf, salario)
         {
         }
-
         public string Senha { get; set; }
         public string Login { get; set; }
+        public double PorcentagemBonus { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public double TotalBonus { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public bool Autenticar(string senha, string login)
         {

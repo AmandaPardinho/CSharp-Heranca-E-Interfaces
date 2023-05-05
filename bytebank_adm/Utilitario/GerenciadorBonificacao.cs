@@ -1,4 +1,5 @@
 ﻿using bytebank_adm.Funcionarios;
+using bytebank_adm.SistemaInterno;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,13 +8,14 @@ using System.Threading.Tasks;
 
 namespace bytebank_adm.Utilitario
 {
-    public class GerenciadorBonificacao
+    public class GerenciadorBonificacao: IBonificacao
     {
-        public double TotalBonificacao { get; private set; }
+        public double PorcentagemBonus { get; set; }
 
-        public void Registrar(Funcionario funcionario)
+        public double SalarioMaisBonus(Funcionario funcionario, double porcentagemBonus)
         {
-            this.TotalBonificacao += funcionario.GetBonificacao();
+            double TotalSalario = funcionario.Salario + (funcionario.Salario * porcentagemBonus);
+            return TotalSalario;
         }
     }
 }
