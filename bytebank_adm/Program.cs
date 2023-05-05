@@ -28,7 +28,8 @@ using bytebank_adm.Utilitario;
 //Console.WriteLine($"Novo valor do salário do Pedro: {String.Format("{0:0,00}", pedro.Salario)}\nNovo valor do salário da Roberta: {String.Format("{0:0,00}", roberta.Salario)}");
 #endregion
 
-void CalcularBonificacao(){
+void CalcularBonificacao()
+{
     GerenciadorBonificacao gerenciador = new GerenciadorBonificacao();
 
     Designer ulisses = new Designer("14725836999");
@@ -42,16 +43,16 @@ void CalcularBonificacao(){
 
     GerenteDeContas camila = new GerenteDeContas("654987321-00");
     camila.Nome = "Camila Oliveira";
+        
+    gerenciador.SalarioMaisBonus(camila, 0.3);
+    gerenciador.SalarioMaisBonus(igor, 0.1);
+    gerenciador.SalarioMaisBonus(paula, 0.5);
+    gerenciador.SalarioMaisBonus(ulisses, 0.3);
 
-    gerenciador.Registrar(camila);
-    gerenciador.Registrar(igor);
-    gerenciador.Registrar(paula);
-    gerenciador.Registrar(ulisses);
-
-    Console.WriteLine($"Total de bonificação: {String.Format("{0:0.00}", gerenciador.TotalBonificacao)}");
+    Console.WriteLine($"Salário total Camila: {String.Format("{0:0,00}", gerenciador.SalarioMaisBonus(camila, 0.3))}\nSalário total Igor: {String.Format("{0:0,00}", gerenciador.SalarioMaisBonus(igor, 0.1))}\nSalário total Paula: {String.Format("{0:0,00}", gerenciador.SalarioMaisBonus(paula, 0.5))}\nSalário total Ulisses: {String.Format("{0:0,00}", gerenciador.SalarioMaisBonus(ulisses, 0.3))}");
 }
 
-//CalcularBonificacao();
+CalcularBonificacao();
 
 UsarSistema();
 
